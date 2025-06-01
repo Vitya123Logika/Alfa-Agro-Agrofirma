@@ -1,0 +1,126 @@
+.knopka2 {
+    color: white;
+    background-color: #709814;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+ 
+    margin: 0 auto;
+}
+.H1s {
+    color: white;
+    background-color: #709814;
+    font-size: 55px;
+    text-align: center;
+}
+body {
+    font-family:sans-serif;
+    font-size: 30px;
+    color: black;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+.double{
+    display: block;
+}
+.image1 {
+    width: 350px;
+    height: 300px;
+    border: 7px double black;
+    margin: 10px;
+}
+.flagdiv{
+    position: relative;
+    bottom: 145px;
+    left: 240px;
+}
+.flag {
+    width: 150px;
+    height: 150px;
+}
+.price{
+    position: relative;
+    color: white;
+    bottom: 65px;
+    right: 115px;
+    font-size: 40px;
+    font-weight: 700;
+}
+.Text {
+    position:relative;
+    bottom: 250px;
+    background-color: rgb(236, 231, 231);
+    font-size: 35px;
+    left:400px;
+    bottom: 525px;
+    width: 500px;
+    height: 200px;
+    
+}
+.Text1 {
+    position:relative;
+    bottom: 195px;
+    left: 210px;
+    background-color: rgb(236, 231, 231);
+    font-size: 30px;
+    width: 250px;
+    font-size: 35px;
+    
+}
+
+
+.pls {
+    font-size: 18px;
+    color: #333;
+}
+ul {
+    list-style: none;
+}
+ 
+
+
+.knopka {
+    margin-bottom: 10px;     
+    text-decoration: none;   
+    color: black;
+    font-size: 20px;
+}
+.Logo {
+    width: 150px;
+    height: 100px;
+}
+td {
+    width: 25%;
+    border-right: 3px solid yellow;   
+}
+table {
+    width: 100%;
+}
+.TdCls {
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+.FLocation a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
+footer {
+   background-color: #2a5834;
+   height: 100px;
+   width: 100%;
+   padding: 5px;
+   text-align: center;
+}
+.FLocation a:hover {
+    text-decoration: underline;
+}

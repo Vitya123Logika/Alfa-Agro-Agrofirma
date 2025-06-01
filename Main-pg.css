@@ -1,0 +1,184 @@
+.H1s {
+    color: white;
+    background-color: #709814;
+    font-size: 55px;
+    text-align: center;
+}
+body {
+    font-family:sans-serif;
+    font-size: 20px;
+    color: black;
+    flex-wrap: wrap;
+
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+nav {
+    background-color: rgb(236, 231, 231);
+    float: left;
+    padding-right: 20px;
+}
+.pro_nas {
+    margin-left: 20px;
+}
+h1 {
+    color: white;
+    background-color: #709814;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
+footer p, footer a {
+    margin: 1px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+}
+footer {
+    background-color: #2a5834;
+    text-align: center;
+}
+.products{ 
+    display: flex;
+    flex-wrap: wrap;            
+    justify-content: flex-start; 
+    gap: 25px;                   
+    padding: 10px;
+}
+
+.pr-item {
+    border: 3px solid black;
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+    height: 175px;
+    padding: 5px;
+    color: black;
+    transition: 0.5s linear;
+    align-items: center;
+}
+.pr-item:hover{
+    scale: (1.1);
+}
+a {
+    text-decoration: none;
+}
+.pr-title {
+    position: relative;
+    right: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0;
+    transition: .5s linear;
+}
+.pr-item:hover .pr-title{
+    transform: scale(1.059);
+}
+.pr-img {
+    width: 115px;
+    height: 100px;
+    border: 3px solid black;
+    position: relative;
+    right: 20px;
+}
+.flagD span{
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    bottom: 47px;
+    right: 75px;
+}
+.flagD {
+    position: relative;
+    bottom: 79px;
+    left:100px;
+}
+.flagD img{
+    width: 100px;
+    height: 100px;
+}
+
+.flagU span{
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+    bottom: 47px;
+    right: 75px;
+}
+.flagU {
+    position: relative;
+    bottom: 55px;
+    left:100px;
+}
+.flagU img{
+    width: 100px;
+    height: 100px;
+}
+.bag {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    bottom: 60px;
+    right: 17px;
+    opacity: 0.40;
+    transition: 0.5s linear;
+}
+.pr-item:hover .bag {
+    opacity: 1;
+    transition: 0.5s linear;
+}
+.buttonUp {
+    color: #709814;
+    border: 3px solid #2a5834;
+    border-radius: 8px;
+    font-size: 50px;
+    width: 30px;
+    height: 55px;
+    text-align: center;
+    position: fixed;
+    bottom: 250px;
+    right: 5px;
+    background-color: white;
+}
+
+.Logo {
+    width: 150px;
+    height: 100px;
+}
+td {
+    width: 25%;
+    border-right: 3px solid yellow;   
+}
+table {
+    width: 100%;
+}
+.TdCls {
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+}
+.FLocation a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: 700;
+}
+footer {
+   background-color: #2a5834;
+   height: 100px;
+   width: 100%;
+   padding: 5px;
+}
+.FLocation a:hover {
+    text-decoration: underline;
+}
+.Text1 p, .Text1 li{
+    font-size: 25px;
+}
